@@ -122,10 +122,24 @@
 // let bool3 = Boolean(0);
 // let bool4 = Boolean("");
 
-console.log("5" + 3);
-console.log("5" - 3);
-console.log("5" * "2");
-console.log(true + 1);
-console.log(false + 1);
-console.log(null + 1);
-console.log(undefined + 1);
+// console.log("5" + 3);
+// console.log("5" - 3);
+// console.log("5" * "2");
+// console.log(true + 1);
+// console.log(false + 1);
+// console.log(null + 1);
+// console.log(undefined + 1);
+
+console.log(5 == "5");
+console.log(5 === "5");
+console.log(0 == false);
+console.log(0 === false);
+console.log(null == undefined);
+console.log(null === undefined);
+
+let obj1 = { name: "john" };
+let obj2 = { name: "john" };
+
+let obj3 = obj1;
+
+console.log(obj1 === obj3)
